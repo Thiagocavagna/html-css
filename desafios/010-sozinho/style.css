@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+header {
+    background-image: linear-gradient(to bottom,#37C777,#1A5C38);
+    margin: 0px;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 1px 10px;
+}
+
+h2 {
+    padding: 1px 10px;
+}
+
+header > h1 {
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+div {
+    display: inline-block;
+}
+
+.lista1 {
+    padding-right: 30%;
+}
+header > p {
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 370px;
+}
+
+nav {
+    background-color: #1A5C38;
+    margin: 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+nav > a:hover {
+    background-color:#209655b4 ;
+}
+body {
+    background-color: #84E1AD   ;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+}
+
+main > h1  {
+    font-family: 'idroid', sans-serif;
+    color: #407B5B;
+    margin: 0px;
+    padding: 5px;
+}
+
+main > h2 {
+    font-family: 'idroid', sans-serif;
+    color: #407B5B;
+    background-image: linear-gradient(to right, #C3E9D3, #E1F5EA,#F2FBF6);
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 1px 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+main > section {
+    background-color:#C4EBD6 ;
+    border-radius: 10px;
+    margin: auto;
+    width: 95%;
+}
+
+main > iframe {
+    display: block;
+    margin: auto;
+}
+
+main > section > h2 {
+    background-color: #2FA866;
+    border-radius: 10px;
+}
+
+main > section > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 1px 10px;
+}
+
+footer {
+    background-color:#1A5C38;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+footer > p {
+    color: white;
+    margin: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.destaque {
+    color: green;
+    font-weight: bolder;
+}
+
+.destaquefooter {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+a:hover {
+    background-color: rgb(83, 197, 83);
+    border-radius: 3px;
+}

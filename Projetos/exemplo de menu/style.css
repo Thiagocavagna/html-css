@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: rgb(65, 66, 66);
+    color: rgb(195, 195, 196);
+    -moz-box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.356);
+    -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.466);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.521);
+}
+
+.menu li ul {
+    position:absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul { 
+    display:block;
+} 
+/*.menu li:hover ul, .menu li.over ul{
+    display:block;
+    
+    comando original era assim, 
+    mas não entendi o li.over então retirei
+}*/
+
+.submenu li {
+    margin-top: -2px;
+    border: 1px solid #c0c0c0;
+    display: block ;
+    width: 150px;
+}
+

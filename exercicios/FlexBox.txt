@@ -1,0 +1,7 @@
+Tag flexbox:
+
+gap - espaço entre os itens (substitui o padding)
+
+sempre começar a estilizar dos elementos pais pro filhos
+
+alinhar só 1 elemento (sem flexbox): display: block margin: auto

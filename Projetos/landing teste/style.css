@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+ 
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid red;
+
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* MAIN */
+
+.conteudo {
+    height: 100vh;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 40%;
+}
+
+.texto h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    align-self: auto;
+}
+
+.texto p {
+    text-align: justify;
+}
+
+.conteudo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo2 h1 {
+    text-align: center;
+}
+
+.imagem02 {
+    order: 1;
+}
+
+
+.formulario {
+    order: 2;
+}

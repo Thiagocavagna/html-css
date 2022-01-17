@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 
 }
 
@@ -106,8 +106,13 @@ header {
     padding: 12px 22px;
 }
 
+.texto a:hover {
+    background-color: rgb(64, 25, 109);
+}
+
 .conteudo2 {
-    border-top: 1px solid white;
+    border-top: 1px solid rgba(255, 255, 255, 0.432);
+    margin-bottom: 50px;
     padding-top: 20px;
     display: flex;
     align-items: center;
@@ -124,5 +129,83 @@ header {
 
 
 .formulario {
+    display: flex;
+    flex-direction: column;
     order: 2;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario h1 {
+    padding-bottom: 20px;
+    font-size: 2em;
+    
+}
+
+.formulario fieldset {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo label {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+}
+.campo input, .campo textarea {
+    color: black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    padding: 0.2em;
+}
+
+.campo input:focus, .campo textarea:focus {
+    background-color: rgb(160, 135, 189);
+}
+
+.botao {
+    color: black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    padding: 4px 0px;
+    
+}
+
+.botao:hover {
+    background-color: rgb(160, 135, 189);
+}
+
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.438);
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+footer p {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.icones {
+    display: flex;
+    gap: 20px;
+}
+
+footer img {
+    width: 40px;
 }

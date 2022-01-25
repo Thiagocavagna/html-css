@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora TDEE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#">Logo</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Calculadora TDE</h1>
+
+            <form >
+                <div class="dados">
+                    <div class="dados1">
+                        <label for="genero" >Gênero:</label>
+                        <select name="genero" id="genero">
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="homem" id="homem">Homem</option>
+                            <option value="mulher" id="mulher">Mulher</option>
+                        </select>
+                    </div>
+                    <div class="dados1">
+                        <label for="peso">Peso em Kg:</label>
+                        <input type="number" value="peso" id="peso">
+                    </div>
+                </div>
+
+                <div class="dados">
+                    <div class="dados1">
+                        <label for="altura">Altura em cm:</label>
+                        <input type="number" value="altura" id="altura">
+                    </div>
+
+                    <div class="dados1">
+                        <label for="idade">Idade:</label>
+                        <input type="number" value="idade" id="idade">
+                    </div>
+                </div>
+
+                <div class="dados">
+                    <div class="dados1">
+                        <label for="objetivo">Objetivo:</label>
+                        <select name="objetivo" id="objetivo">
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="emagrecer-rapido" id="emagrecer-rapido">Emagrecer rápido</option>
+                            <option value="emagrecer" id="emagrecer">Emagrecer</option>
+                            <option value="manter" id="manter">Manter o peso</option>
+                            <option value="ganhar" id="ganhar">Ganhos Moderados</option>
+                            <option value="ganhar-rapido" id="ganhar-rapido">Ganhos Agressivos</option>
+                        </select>
+                    </div>
+                    <div class="dados1">
+                        <label for="atividade">Nível de atividade física:</label>
+                        <select name="atividade" id="atividade">
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="1.2" id="sedentario">Sedentário (pouca ou nenhuma atividade)</option>
+                            <option value="1.375" id="leve">Levemente ativo (1 a 3 dias por semana)</option>
+                            <option value="1.55" id="moderado">Moderadamente ativo (3 a 5 dias por semana) </option>
+                            <option value="1.725" id="ativo">Muito ativo (5 a 6 dias por semana)</option>
+                            <option value="1.9" id="extremo">Extremamente ativo (2x no dia)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <input class="botao" type="button" value="Calcular" onclick="calcular()">
+
+                <div id="res">Aqui</div>
+            </form>
+        </section>
+        <img src="img01.png" alt="">
+    </main>
+
+    <script src="cal-tdee.js"></script>
+</body>
+</html>

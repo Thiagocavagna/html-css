@@ -20,9 +20,8 @@
 
     <main>
         <section>
-            <h1>Calculadora TDE</h1>
-
             <form >
+                <h1>Calculadora TDEE</h1>
                 <div class="dados">
                     <div class="dados1">
                         <label for="genero" >Gênero:</label>
@@ -34,19 +33,19 @@
                     </div>
                     <div class="dados1">
                         <label for="peso">Peso em Kg:</label>
-                        <input type="number" value="peso" id="peso">
+                        <input type="number" value="peso" id="peso" placeholder="Ex: 77">
                     </div>
                 </div>
 
                 <div class="dados">
                     <div class="dados1">
                         <label for="altura">Altura em cm:</label>
-                        <input type="number" value="altura" id="altura">
+                        <input type="number" value="altura" id="altura" placeholder="Ex: 184">
                     </div>
 
                     <div class="dados1">
                         <label for="idade">Idade:</label>
-                        <input type="number" value="idade" id="idade">
+                        <input type="number" value="idade" id="idade" placeholder="Ex: 23">
                     </div>
                 </div>
 
@@ -64,7 +63,7 @@
                     </div>
                     <div class="dados1">
                         <label for="atividade">Nível de atividade física:</label>
-                        <select name="atividade" id="atividade">
+                        <select name="atividade" id="atividade" >
                             <option value="" disabled selected>Selecione...</option>
                             <option value="1.2" id="sedentario">Sedentário (pouca ou nenhuma atividade)</option>
                             <option value="1.375" id="leve">Levemente ativo (1 a 3 dias por semana)</option>
@@ -75,14 +74,16 @@
                     </div>
                 </div>
                 
-                <input class="botao" type="button" value="Calcular" onclick="calcular()">
+                <div id="botao"><input class="botao" type="button" value="Calcular" onclick="calcular()"></div>
 
-                <div id="res">Aqui</div>
+                <div id="res"></div>
             </form>
         </section>
-        <img src="img01.png" alt="">
+        <img src="img02.png" alt="">
     </main>
-
+    <footer>
+        <p>&copy; Criado por <a href="https://github.com/thiagocavagna" target="_blank" type="external">Thiago Cavagna</a></p>
+    </footer>
     <script src="cal-tdee.js"></script>
 </body>
 </html>

@@ -33,18 +33,15 @@ main {
 }
 
 #conteudo1 {
-    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 90vh;
 }
 
-#conteudo1-1 {
-    height: 50vh;
-}
 
 #conteudo1-1 img {
- 
+    height: 65vh;
 }
 
 #conteudo1-2 {
@@ -59,3 +56,28 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
+#conteudo2 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#conteudo2-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+#conteudo2-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+
+
